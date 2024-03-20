@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #1B244A;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.display {
+    margin-top: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#home-score {
+    font-size: 90px;
+    font-family: digital;
+    font-weight: regular;
+    color: #F94F6D;
+    margin-top: 21px;
+    background-color: #080001;
+    border-radius: 5px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+#guest-score {
+    font-size: 90px;
+    font-family: digital;
+    font-weight: regular;
+    color: #F94F6D;
+    margin-top: 21px;
+    background-color: #080001;
+    border-radius: 5px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+
+button {
+    border: solid 3px #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    font-family: digital;
+    padding: 8px;
+    font-size: 26px;
+}
+
+.points {
+    margin-top: 26px;
+}
